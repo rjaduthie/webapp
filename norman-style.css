@@ -1,0 +1,41 @@
+h1 {
+    color: darkblue;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: Consolas, Menlo, Monaco, monospace;
+}
+
+p {
+    color: gray;
+    font-size: 10pt;
+    font-family: Consolas, Menlo, Monaco, monospace;
+}
+
+.menu-item{
+    font-size: 12pt;
+}
+
+.non-veggie{
+    color: red;
+    font-family: "URW Chancery L",  "eufm10", serif;
+}
+
+.veggie {
+    color: green;
+    /*font-size: 10pt;*/
+    font-family: "eufm10", Book Antiqua, fantasy, serif;
+}
+
+.img-menu {
+    height: 200px;
+}
+
+
+#first-item {
+    border-top: groove;
+}
+
+#haggis {
+    font-weight: bold;
+}
+
