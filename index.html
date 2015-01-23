@@ -1,91 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
+<head lang="en">
 
-        <meta charset="UTF-8">
-        <title>Norman's Diner</title>
-        <link rel="stylesheet" href="bootstrap.css">
-        <link rel="stylesheet" href="norman-style.css">
+    <meta charset="UTF-8">
+    <title>Norman's Diner</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="norman-style.css">
 
-    </head>
-    <body>
+</head>
+<body>
+<div class="container">
+    <nav class="nav-bar navbar-default">
         <div class="container">
-            <nav class="nav-bar navbar-default">
-                <div class="container">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="index.html">Norman's Diner</a>
-                    </div>
-                    <div>
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="#starters">Starters</a></li>
-                            <li><a href="#mains">Mains</a></li>
-                            <li><a href="#desserts">Desserts</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="jumbotron">
-                <h1>Norman's Diner</h1>
-
-                <p>The best burger bar in Lichtenstein</p>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Norman's Diner</a>
             </div>
-            <!--
-                <div class="row">
-                    <div class="col-md-8 col-xs-8"><h2>Starters</h2></div>
-                    <div class="col-md-4 col-xs-4"><h2>Mains</h2></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-xs-4"><h2>Eat!</h2></div>
-                    <div class="col-md-4 col-xs-4"><h2>Play!</h2></div>
-                    <div class="col-md-4 col-xs-4"><h2>Share!</h2></div>
-                </div>
-            -->
-            <div class="page-header" id="starters">
-                <h2>Starters</h2>
-
-                <div class="row">
-                    <div class="col-md-4 col-xs-6">
-                        <img src="img/salad.jpg" class="img-menu img-responsive img-rounded"/>
-                        Salad <h4 class="label label-danger">€8.90</h4>
-                    </div>
-                    <div class="col-md-4 col-xs-6"><img src="img/camembert.jpg" class="img-menu img-responsive img-rounded"/>
-                        Camembert <h4 class="label label-info">€11.80</h4>
-                    </div>
-                </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#starters">Starters</a></li>
+                    <li><a href="#mains">Mains</a></li>
+                    <li><a href="#desserts">Desserts</a></li>
+                </ul>
             </div>
-
-
-            <div class="page-header" id="mains">
-                <h2>Mains</h2>
-
-                <div class="row">
-                    <div class="col-md-4 col-xs-6">
-                        <img src="img/burger.jpg" class="img-responsive img-circle img-menu"/>
-                        Burger Burger <h4 class="label label-success">€18.40</h4>
-                    </div>
-                    <div class="col-md-4 col-xs-6">
-                        <img src="img/veggieburger.jpg" class="img-responsive img-circle img-menu"/>
-                        Veggie Burger <h4 class="label label-info">€9.95</h4>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="page-header" id="desserts">
-                <h2>Desserts</h2>
-
-                <div class="col-md-4 col-xs-6">
-                    <img src="img/milkshake.jpg" class="img-responsive img-rounded img-menu"/>
-                    Shaken Milk <h4 class="label label-success">€16.40</h4>
-                </div>
-            </div>
-
         </div>
+    </nav>
+    <div class="jumbotron">
+        <h1>Norman's Diner</h1>
+
+        <p>The best burger bar in Lichtenstein</p>
+
         <div class="row">
-            <div class="col-md-4 col-xs-4 text-philosophy"><h2>Eat!</h2></div>
-            <div class="col-md-4 col-xs-4 text-philosophy"><h2>Drink!</h2></div>
-            <div class="col-md-4 col-xs-4 text-philosophy"><h2>Share!</h2></div>
+            <div class="col-md-12" id="greeting">
+                <form id="greeting-form" class="form-inline">
+                    <div class="form-group">
+                        <label for="fullName">What is your full name?</label>
+                        <input type="text" id="fullName" name="fullName" class="form-control"
+                               placeholder="Dave?">
+                    </div>
+                    <button class="btn btn-default" type="submit">OK</button>
+                </form>
+            </div>
         </div>
-    </body>
+    </div>
+    <a href="booking-form.html">Make a booking...</a>
+    <div class="page-header" id="starters">
+        <h2>Starters</h2>
+
+        <div class="row">
+            <div class="col-md-4 col-xs-6">
+                <img src="img/salad.jpg" class="img-menu img-responsive img-rounded"/>
+                Salad <h4 class="label label-danger">€8.90</h4>
+            </div>
+            <div class="col-md-4 col-xs-6"><img src="img/camembert.jpg" class="img-menu img-responsive img-rounded"/>
+                Camembert <h4 class="label label-info">€11.80</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page-header" id="mains">
+        <h2>Mains</h2>
+
+        <div class="row">
+            <div class="col-md-4 col-xs-6">
+                <img src="img/burger.jpg" class="img-responsive img-circle img-menu"/>
+                Burger Burger <h4 class="label label-success">€18.40</h4>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <img src="img/veggieburger.jpg" class="img-responsive img-circle img-menu"/>
+                Veggie Burger <h4 class="label label-info">€9.95</h4>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="page-header" id="desserts">
+        <h2>Desserts</h2>
+
+        <div class="col-md-4 col-xs-6">
+            <img src="img/milkshake.jpg" class="img-responsive img-rounded img-menu"/>
+            Shaken Milk <h4 class="label label-success">€16.40</h4>
+        </div>
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-md-4 col-xs-4 text-philosophy"><h2>Eat!</h2></div>
+    <div class="col-md-4 col-xs-4 text-philosophy"><h2>Drink!</h2></div>
+    <div class="col-md-4 col-xs-4 text-philosophy"><h2>Share!</h2></div>
+</div>
+
+<script src="jquery.js"></script>
+<script src="jnorma.js"></script>
+</body>
 </html>
