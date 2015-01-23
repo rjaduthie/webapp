@@ -2,13 +2,20 @@ h1 {
     color: darkblue;
     font-size: 18pt;
     font-weight: bold;
-    font-family: Consolas, Menlo, Monaco, monospace;
+    font-family: "eufm10", Book Antiqua, fantasy, serif;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: "eufm10", Book Antiqua, fantasy, serif;
 }
 
 p {
     color: gray;
     font-size: 10pt;
-    font-family: Consolas, Menlo, Monaco, monospace;
+    font-family: "eufm10", Book Antiqua, fantasy, serif;
 }
 
 .menu-item{
@@ -30,6 +37,9 @@ p {
     height: 200px;
 }
 
+.text-philosophy {
+    text-align: center;
+}
 
 #first-item {
     border-top: groove;
